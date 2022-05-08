@@ -6,6 +6,7 @@ const Section = styled.section`
 	align-items: center;
 	text-align: center;
 	color: hsl(0, 0%, 55%);
+	padding: 15px;
 `;
 
 const Title = styled.h1`
