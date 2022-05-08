@@ -1,10 +1,9 @@
 import Stadistics from './views/Stadistics'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
       <Stadistics />
-    </div>
   );
 }
 

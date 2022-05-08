@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
 const Section = styled.section`
-    box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	color: hsl(0, 0%, 75%);
-    text-align: center;
+	text-align: center;
+	color: hsl(0, 0%, 55%);
 `;
 
 const Title = styled.h1`
@@ -22,6 +21,7 @@ const Button = styled.button`
     border: none;
     color: white;
     font-weight: 700;
+    margin-top: 20px;
 `;
 
 const ShortContainer = styled.div`
@@ -32,9 +32,10 @@ const ShortContainer = styled.div`
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
 
     input{
-        padding: 6px;
+        padding: 8px;
         border-radius: 8px;
         margin-bottom: 10px;
         border: none;
@@ -46,6 +47,7 @@ const ShortContainer = styled.div`
 `;
 
 const AdvancedStatistics = styled.div`
+    margin-top: 60px;
 	h2 {
 		color: black;
 		margin: 0;
