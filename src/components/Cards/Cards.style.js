@@ -6,19 +6,38 @@ const ContainerCard = styled.div`
 	position: relative;
 	padding: 10px 16px;
 	padding-top: 40px;
+	margin: 10px;
 	margin-top: 90px;
 
-	img {
-		width: 80px;
-		height: 80px;
-		position: absolute;
-		top: -40px;
-		left: calc(50% - 40px);
-		border-radius: 100%;
-	}
 	h2 {
 		color: black;
 	}
+
+	&:hover {
+		transform: scale(1.05);
+	}
 `;
 
-export { ContainerCard };
+const ImgContainer = styled.div`
+	width: 80px;
+	height: 80px;
+	padding: 3px;
+	position: absolute;
+	top: -40px;
+	left: calc(50% - 40px);
+	border-radius: 100%;
+	background-color: hsl(257, 27%, 26%);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	img {
+		width: 65%;
+		height: 65%;
+	}
+`;
+
+export { ContainerCard, ImgContainer };

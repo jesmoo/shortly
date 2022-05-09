@@ -1,13 +1,12 @@
 import React from 'react'
-import { ContainerCard } from './Cards.style'
+import { ContainerCard, ImgContainer } from './Cards.style';
 
-const Cards = ({ url,titles, texts }) => {
+const Cards = ({ url = '',titles, texts }) => {
 	return (
 		<ContainerCard>
-			<img
-				src='https://pbs.twimg.com/profile_images/1146072983787724800/SElmsSlI_400x400.jpg'
-				alt='Imagen de ayuda'
-			/>
+			<ImgContainer >
+				<img src={url} alt='Imagen de ayuda' />
+			</ImgContainer>
 			<h2>{titles}</h2>
 			<p>{texts}</p>
 		</ContainerCard>
