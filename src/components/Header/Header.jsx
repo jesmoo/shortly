@@ -6,6 +6,7 @@ import {
 	Title,
 	Button,
 } from '../../views/Stadistics/Stadistics.style';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -22,7 +23,7 @@ const Header = () => {
 					performing.
 				</p>
 				<Button>
-					<a href='#shorter'>Get Started</a>
+					<Link to='/#shorter'>Get Started</Link>
 				</Button>
 			</section>
 		</HeaderContainer>
