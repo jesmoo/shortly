@@ -16,6 +16,18 @@ const HeaderContainer = styled.header`
 		width: 100%;
 		max-width: 500px;
 	}
+
+	@media (min-width: 1024px) {
+		& {
+			flex-direction: row;
+			justify-content: center;
+		}
+
+		section{
+			margin: 10px;
+			max-width: 500px
+		}
+	}
 `;
 
 export { HeaderContainer };

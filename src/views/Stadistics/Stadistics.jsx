@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { Section, Title, Button, ShortContainer, TextErrors, TextURL,ContainerCard, AdvancedStatistics } from './Stadistics.style';
+import { Section, Button, ShortContainer, TextErrors, TextURL,ContainerCard, AdvancedStatistics } from './Stadistics.style';
 import Cards from '../../components/Cards';
 
 import card1 from '../../assets/icons/icon-brand-recognition.svg'
@@ -54,14 +54,6 @@ const Stadistics = () => {
 
 	return (
 		<Section>
-			<Title>More than just shorter links</Title>
-			<p>
-				Build your brand s recognition and get detalled insights on how youl links are
-				performing.
-			</p>
-			<Button>
-				<a href='#shorter'>Get Started</a>
-			</Button>
 			<ShortContainer id='shorter'>
 				<input value={urls} onChange={handleChange} type='text' />
 				<Button onClick={handleSend}>Shorten it!</Button>
