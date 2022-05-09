@@ -6,7 +6,7 @@ import Workspace from '../../assets/icons/illustration-working.svg'
 const Header = () => {
   return (
 		<HeaderContainer>
-				<h1>Shortly</h1>
+			<h1>Shortly</h1>
 			<img src={Workspace} alt='Working' />
 		</HeaderContainer>
   );
